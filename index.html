@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StereoCoach — Comprendre la stéréochimie en trois dimensions</title>
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header><svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><g stroke="#42B6A5" stroke-width="3" stroke-linecap="round"><path d="M24 24 L24 7"/><path d="M24 24 L9 33"/><path d="M24 24 L39 33"/></g><path d="M24 24 L24 40" stroke="#E9AD56" stroke-width="3" stroke-dasharray="3 3"/><circle cx="24" cy="24" r="6" fill="#172D43"/><circle cx="24" cy="7" r="4" fill="#42B6A5"/><circle cx="9" cy="33" r="4" fill="#E36C65"/><circle cx="39" cy="33" r="4" fill="#E9AD56"/></svg>
+<div><h1>StereoCoach</h1><p>Comprendre la stéréochimie en trois dimensions.</p></div>
+<span class="tag">Prototype — phase 2 · butan-2-ol</span><button id="btnDiag" class="ghost" title="Raccourci : touche D">Diagnostic</button></header>
+<main>
+<section class="viewer"><div id="view" aria-label="Modèle moléculaire 3D"></div>
+<div class="toolbar"><button id="btnReset">Réinitialiser la vue</button><button id="btnH">Masquer les H</button><button id="btnGuide" hidden>Aide guidée</button><button id="btnAxis" hidden>Axe d'observation</button><span id="orient" class="badge" hidden></span></div>
+<p class="hint">Glisser : tourner · molette : zoom · clic droit : déplacer · clic sur un atome : sélectionner</p></section>
+<section class="panel"><ol id="steps"></ol><div id="stage"></div><div id="feedback" role="status" aria-live="polite"></div>
+<div class="actions"><button id="btnHelp" class="ghost">Besoin d'aide ?</button><button id="btnOk" class="primary">Valider</button></div><div id="score"></div></section>
+</main>
+<aside id="diag" hidden><h2>Diagnostic développeur</h2><pre id="diagOut"></pre><button id="btnTests" class="primary">Lancer les tests</button> <button id="btnResetProg" class="ghost">Réinitialiser la progression</button></aside>
+<div id="fatal" hidden></div>
+<script type="module" src="js/main.js"></script></body></html>

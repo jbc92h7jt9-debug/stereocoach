@@ -1,0 +1,292 @@
+{
+ "version": 1,
+ "molecules": [
+  {
+   "id": "butan-2-ol-S",
+   "name": "Butan-2-ol",
+   "formula": "C4H10O",
+   "smiles": "C[C@H](O)CC",
+   "level": 1,
+   "description": "Alcool secondaire à un seul centre stéréogène : un bon premier exemple.",
+   "stereocenters": [
+    {
+     "atom": 1,
+     "config": "S",
+     "substituents": [
+      {
+       "atom": 2,
+       "label": "OH",
+       "rank": 1,
+       "firstAtom": "O",
+       "firstZ": 8,
+       "sphere2": [
+        "H"
+       ]
+      },
+      {
+       "atom": 3,
+       "label": "CH₂CH₃",
+       "rank": 2,
+       "firstAtom": "C",
+       "firstZ": 6,
+       "sphere2": [
+        "C",
+        "H",
+        "H"
+       ]
+      },
+      {
+       "atom": 0,
+       "label": "CH₃",
+       "rank": 3,
+       "firstAtom": "C",
+       "firstZ": 6,
+       "sphere2": [
+        "H",
+        "H",
+        "H"
+       ]
+      },
+      {
+       "atom": 8,
+       "label": "H",
+       "rank": 4,
+       "firstAtom": "H",
+       "firstZ": 1,
+       "sphere2": []
+      }
+     ]
+    }
+   ],
+   "atoms": [
+    {
+     "i": 0,
+     "el": "C",
+     "z": 6,
+     "xyz": [
+      -1.2239,
+      -1.1012,
+      -0.0809
+     ]
+    },
+    {
+     "i": 1,
+     "el": "C",
+     "z": 6,
+     "xyz": [
+      -0.7729,
+      0.3471,
+      0.0441
+     ]
+    },
+    {
+     "i": 2,
+     "el": "O",
+     "z": 8,
+     "xyz": [
+      -1.5969,
+      1.129,
+      -0.8204
+     ]
+    },
+    {
+     "i": 3,
+     "el": "C",
+     "z": 6,
+     "xyz": [
+      0.6915,
+      0.5622,
+      -0.3477
+     ]
+    },
+    {
+     "i": 4,
+     "el": "C",
+     "z": 6,
+     "xyz": [
+      1.6773,
+      -0.1562,
+      0.5588
+     ]
+    },
+    {
+     "i": 5,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      -2.2991,
+      -1.1833,
+      0.1137
+     ]
+    },
+    {
+     "i": 6,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      -0.6993,
+      -1.7534,
+      0.6227
+     ]
+    },
+    {
+     "i": 7,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      -1.0606,
+      -1.476,
+      -1.0974
+     ]
+    },
+    {
+     "i": 8,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      -0.947,
+      0.6939,
+      1.0689
+     ]
+    },
+    {
+     "i": 9,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      -1.3403,
+      2.0601,
+      -0.7073
+     ]
+    },
+    {
+     "i": 10,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      0.9108,
+      1.6373,
+      -0.3293
+     ]
+    },
+    {
+     "i": 11,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      0.8495,
+      0.2494,
+      -1.3875
+     ]
+    },
+    {
+     "i": 12,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      2.7031,
+      0.1102,
+      0.2841
+     ]
+    },
+    {
+     "i": 13,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      1.5838,
+      -1.2427,
+      0.4724
+     ]
+    },
+    {
+     "i": 14,
+     "el": "H",
+     "z": 1,
+     "xyz": [
+      1.5239,
+      0.1236,
+      1.6058
+     ]
+    }
+   ],
+   "bonds": [
+    {
+     "a": 0,
+     "b": 1,
+     "order": 1
+    },
+    {
+     "a": 1,
+     "b": 2,
+     "order": 1
+    },
+    {
+     "a": 1,
+     "b": 3,
+     "order": 1
+    },
+    {
+     "a": 3,
+     "b": 4,
+     "order": 1
+    },
+    {
+     "a": 0,
+     "b": 5,
+     "order": 1
+    },
+    {
+     "a": 0,
+     "b": 6,
+     "order": 1
+    },
+    {
+     "a": 0,
+     "b": 7,
+     "order": 1
+    },
+    {
+     "a": 1,
+     "b": 8,
+     "order": 1
+    },
+    {
+     "a": 2,
+     "b": 9,
+     "order": 1
+    },
+    {
+     "a": 3,
+     "b": 10,
+     "order": 1
+    },
+    {
+     "a": 3,
+     "b": 11,
+     "order": 1
+    },
+    {
+     "a": 4,
+     "b": 12,
+     "order": 1
+    },
+    {
+     "a": 4,
+     "b": 13,
+     "order": 1
+    },
+    {
+     "a": 4,
+     "b": 14,
+     "order": 1
+    }
+   ],
+   "validation": {
+    "coords": "RDKit 2026.09.1 ETKDG seed 42 + MMFF94",
+    "cip_reference": "rdCIPLabeler (nouvel algorithme CIP) = S",
+    "cross_check": "ranks saisis + 3D (produit mixte) == rdCIPLabeler; 3D -> stéréo == SMILES"
+   }
+  }
+ ]
+}
